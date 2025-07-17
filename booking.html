@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Guest Booking</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header><h1>Guest Booking</h1></header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="booking.html">Booking</a>
+    <a href="help.html">Help</a>
+    <a href="about.html">About</a>
+  </nav>
+  <main>
+    <form>
+      <fieldset>
+        <legend>Booking Form</legend>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required placeholder="Enter your name">
+        
+        <label for="major">Major:</label>
+        <select id="major" name="major">
+          <option>Computer Science</option>
+          <option>IT</option>
+          <option>Software Engineering</option>
+        </select>
+        
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="Male" checked> Male
+        <input type="radio" name="gender" value="Female"> Female
+        
+        <label>Hobbies:</label>
+        <input type="checkbox" name="hobby" value="Coding"> Coding
+        <input type="checkbox" name="hobby" value="Gaming"> Gaming
+        
+        <label for="comments">Comments:</label>
+        <textarea id="comments" name="comments" placeholder="Write your comment here..."></textarea>
+        
+        <button type="submit">Submit</button>
+      </fieldset>
+    </form>
+  </main>
+  <footer>© 2025 Your Name</footer>
+</body>
+</html>
